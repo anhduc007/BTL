@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Đăng nhập – Gang Thép Gym</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;800&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <div class="khung thanh-menu">
+      <a href="index.html" class="logo">Gang <span>Thép</span> Gym</a>
+      <button id="nutMenu" aria-label="Mở menu">☰</button>
+      <nav id="menuChinh">
+        <a href="index.html#gioi-thieu">Giới thiệu</a>
+        <a href="index.html#goi-tap">Gói tập</a>
+        <a href="index.html#huan-luyen-vien">Huấn luyện viên</a>
+        <a href="index.html#lien-he">Liên hệ</a>
+        <a href="dang-ky-goi.html">Đăng ký gói</a>
+      </nav>
+      <div id="khuVucTaiKhoan"></div>
+    </div>
+  </header>
+
+  <main class="khung">
+    <form class="khung-form" id="formDangNhap" novalidate>
+      <h1>Đăng nhập</h1>
+      <div class="o-nhap"><label for="email">Email</label><input id="email" type="email" placeholder="ban@gmail.com"></div>
+      <div class="o-nhap"><label for="matKhau">Mật khẩu</label><input id="matKhau" type="password"></div>
+      <span class="loi" id="loiDangNhap"></span>
+      <button type="submit" class="nut" style="width:100%;margin-top:10px">Đăng nhập</button>
+      <p class="goi-y">Chưa có tài khoản? <a href="dang-ky.html">Đăng ký ngay</a></p>
+      <p class="goi-y"><small>Tài khoản quản lý dùng thử: <b>admin@gym.vn</b> / <b>admin123</b></small></p>
+    </form>
+  </main>
+
+  <footer>
+    <div class="khung">
+      <b>GANG THÉP GYM</b> · Số 68 Trần Thái Tông, Dịch Vọng Hậu, Cầu Giấy, Hà Nội · Hotline: 0987 654 321<br>
+      Bài tập lớn môn Thiết kế Web – Nhóm: Lò Anh Đức, Nguyễn Chí Bảo Duy, Quản Hoàng Nam, Bùi Hoàng Hiệp
+    </div>
+  </footer>
+
+  <script src="js/common.js"></script>
+  <script src="js/dang-nhap.js"></script>
+</body>
+</html>
