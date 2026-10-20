@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Đăng ký gói tập – Gang Thép Gym</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;800&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <div class="khung thanh-menu">
+      <a href="index.html" class="logo">Gang <span>Thép</span> Gym</a>
+      <button id="nutMenu" aria-label="Mở menu">☰</button>
+      <nav id="menuChinh">
+        <a href="index.html#gioi-thieu">Giới thiệu</a>
+        <a href="index.html#goi-tap">Gói tập</a>
+        <a href="index.html#huan-luyen-vien">Huấn luyện viên</a>
+        <a href="index.html#lien-he">Liên hệ</a>
+        <a href="dang-ky-goi.html">Đăng ký gói</a>
+      </nav>
+      <div id="khuVucTaiKhoan"></div>
+    </div>
+  </header>
+
+  <main class="khung">
+    <form class="khung-form rong" id="formDangKyGoi" novalidate>
+      <h1 id="tieuDeForm">Đăng ký gói tập</h1>
+      <div class="hai-cot">
+        <div class="o-nhap"><label for="hoTen">Họ và tên</label><input id="hoTen"><span class="loi" id="loiHoTen"></span></div>
+        <div class="o-nhap"><label for="sdt">Số điện thoại</label><input id="sdt" placeholder="09xxxxxxxx"><span class="loi" id="loiSdt"></span></div>
+      </div>
+      <div class="o-nhap"><label for="diaChi">Địa chỉ</label><input id="diaChi" placeholder="Số nhà, đường, phường, quận, thành phố"><span class="loi" id="loiDiaChi"></span></div>
+      <div class="o-nhap"><label for="goiTap">Chọn gói tập</label><select id="goiTap"></select></div>
+      <div class="hai-cot">
+        <div class="o-nhap"><label for="ngayBatDau">Ngày bắt đầu</label><input id="ngayBatDau" type="date"><span class="loi" id="loiNgay"></span></div>
+        <div class="o-nhap"><label for="ngayKetThuc">Ngày kết thúc (tự tính)</label><input id="ngayKetThuc" readonly></div>
+      </div>
+      <div class="hop-tom-tat">Tổng tiền: <span class="tong" id="tongTien">0 đ</span></div>
+      <button type="submit" class="nut" style="width:100%" id="nutGui">Gửi đăng ký</button>
+      <p class="goi-y"><small>Sau khi gửi, bạn thanh toán tại quầy. Quản lý sẽ duyệt và kích hoạt gói.</small></p>
+    </form>
+  </main>
+
+  <footer>
+    <div class="khung">
+      <b>GANG THÉP GYM</b> · Số 68 Trần Thái Tông, Dịch Vọng Hậu, Cầu Giấy, Hà Nội · Hotline: 0987 654 321<br>
+      Bài tập lớn môn Thiết kế Web – Nhóm: Lò Anh Đức, Nguyễn Chí Bảo Duy, Quản Hoàng Nam, Bùi Hoàng Hiệp
+    </div>
+  </footer>
+
+  <script src="js/common.js"></script>
+  <script src="js/dang-ky-goi.js"></script>
+</body>
+</html>
