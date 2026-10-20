@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trang quản lý – Gang Thép Gym</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;800&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <div class="khung thanh-menu">
+      <a href="index.html" class="logo">Gang <span>Thép</span> Gym</a>
+      <button id="nutMenu" aria-label="Mở menu">☰</button>
+      <nav id="menuChinh">
+        <a href="index.html#gioi-thieu">Giới thiệu</a>
+        <a href="index.html#goi-tap">Gói tập</a>
+        <a href="index.html#huan-luyen-vien">Huấn luyện viên</a>
+        <a href="index.html#lien-he">Liên hệ</a>
+        <a href="dang-ky-goi.html">Đăng ký gói</a>
+      </nav>
+      <div id="khuVucTaiKhoan"></div>
+    </div>
+  </header>
+
+  <main class="khung">
+    <section class="muc">
+      <h2>Trang quản lý</h2>
+      <p class="mo-ta">Duyệt đăng ký gói tập, xem danh sách hội viên và trả lời tin nhắn.</p>
+
+      <div class="so-lieu">
+        <div class="the"><b id="soHoiVien">0</b>Hội viên</div>
+        <div class="the"><b id="soChoDuyet">0</b>Đăng ký chờ duyệt</div>
+        <div class="the"><b id="soDangTap">0</b>Gói đang hoạt động</div>
+        <div class="the"><b id="doanhThu">0 đ</b>Doanh thu đã duyệt</div>
+      </div>
+
+      <h3 class="tieu-de-muc">Danh sách đăng ký gói tập</h3>
+      <div class="bang-cuon">
+        <table>
+          <thead><tr><th>Họ tên</th><th>SĐT</th><th>Địa chỉ</th><th>Gói</th><th>Bắt đầu</th><th>Kết thúc</th><th>Số tiền</th><th>Trạng thái</th><th>Thao tác</th></tr></thead>
+          <tbody id="bangDangKy"></tbody>
+        </table>
+      </div>
+
+      <h3 class="tieu-de-muc">Danh sách hội viên</h3>
+      <div class="bang-cuon">
+        <table>
+          <thead><tr><th>STT</th><th>Họ tên</th><th>Email</th><th>Số điện thoại</th><th>Số gói đã đăng ký</th></tr></thead>
+          <tbody id="bangHoiVien"></tbody>
+        </table>
+      </div>
+
+      <h3 class="tieu-de-muc">Tin nhắn của hội viên</h3>
+      <div class="chon-hoi-vien" id="chonHoiVien"></div>
+      <div class="khung-chat" style="margin:0;max-width:none">
+        <div class="danh-sach-tin" id="danhSachTin"></div>
+        <form class="o-gui" id="formTraLoi">
+          <input id="noiDungTraLoi" placeholder="Trả lời hội viên..." autocomplete="off">
+          <button type="submit" class="nut">Gửi</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="khung">
+      <b>GANG THÉP GYM</b> · Số 68 Trần Thái Tông, Dịch Vọng Hậu, Cầu Giấy, Hà Nội · Hotline: 0987 654 321<br>
+      Bài tập lớn môn Thiết kế Web – Nhóm: Lò Anh Đức, Nguyễn Chí Bảo Duy, Quản Hoàng Nam, Bùi Hoàng Hiệp
+    </div>
+  </footer>
+
+  <script src="js/common.js"></script>
+  <script src="js/quan-ly.js"></script>
+</body>
+</html>

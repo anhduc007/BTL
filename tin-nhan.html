@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nhắn tin với quản lý – Gang Thép Gym</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;800&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <div class="khung thanh-menu">
+      <a href="index.html" class="logo">Gang <span>Thép</span> Gym</a>
+      <button id="nutMenu" aria-label="Mở menu">☰</button>
+      <nav id="menuChinh">
+        <a href="index.html#gioi-thieu">Giới thiệu</a>
+        <a href="index.html#goi-tap">Gói tập</a>
+        <a href="index.html#huan-luyen-vien">Huấn luyện viên</a>
+        <a href="index.html#lien-he">Liên hệ</a>
+        <a href="dang-ky-goi.html">Đăng ký gói</a>
+      </nav>
+      <div id="khuVucTaiKhoan"></div>
+    </div>
+  </header>
+
+  <main class="khung">
+    <div class="khung-chat">
+      <div class="dau-chat"><b>Quản lý Gang Thép Gym</b><small>Trả lời trong giờ mở cửa 5:00 – 22:00 · Hotline 0987 654 321</small></div>
+      <div class="danh-sach-tin" id="danhSachTin"></div>
+      <form class="o-gui" id="formGuiTin">
+        <input id="noiDungTin" placeholder="Nhập tin nhắn..." autocomplete="off">
+        <button type="submit" class="nut">Gửi</button>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <div class="khung">
+      <b>GANG THÉP GYM</b> · Số 68 Trần Thái Tông, Dịch Vọng Hậu, Cầu Giấy, Hà Nội · Hotline: 0987 654 321<br>
+      Bài tập lớn môn Thiết kế Web – Nhóm: Lò Anh Đức, Nguyễn Chí Bảo Duy, Quản Hoàng Nam, Bùi Hoàng Hiệp
+    </div>
+  </footer>
+
+  <script src="js/common.js"></script>
+  <script src="js/tin-nhan.js"></script>
+</body>
+</html>
