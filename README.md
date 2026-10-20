@@ -103,3 +103,5 @@ Dữ liệu được lưu trong trình duyệt (localStorage), nên mỗi máy c
 
 - **Netlify Drop**: vào app.netlify.com/drop, kéo thả cả thư mục `QuanLy PhongGym`.
 - **GitHub Pages**: tải toàn bộ thư mục lên một repository public, vào Settings → Pages, chọn nhánh `main`.
+- ## Phân công công việc
+👉 [Bấm vào đây để xem chi tiết Phân Công Công Việc](./PHAN_CONG.md)
