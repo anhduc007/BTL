@@ -60,3 +60,4 @@ Dữ liệu lưu trong **LocalStorage** của trình duyệt, gồm 4 khóa:
 Trạng thái gói: **Chờ duyệt** → (quản lý duyệt) → **Chưa bắt đầu / Đang tập / Hết hạn**, hoặc **Đã hủy**, **Đã đổi gói**.
 
 > Ghi chú: để đơn giản, mật khẩu được lưu nguyên văn trong LocalStorage. Website thật cần lưu mật khẩu đã mã hóa ở máy chủ.
+> [Xem chi tiết phân công công việc tại đây](./PHAN_CONG.md)
